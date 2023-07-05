@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 34);
+    color: rgb(238, 238, 238);
+    font-family: sans-serif;
+}
+
+body {
+    padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:rgb(236, 43, 195);
+    padding: 1rem 0 1rem 0;
+}
+
+input {
+    border: none;
+    background-color: white;
+    color: rgb(236, 43, 195);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+button {
+    border: none;
+    background-color: rgb(236, 43, 195);
+    color: white;
+    border-radius: 15px;
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0.5rem;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#messages-container {
+    background-color: rgb(19, 19, 19);
+    padding: 0.5rem;
+    font-weight: 200;
+    border-radius: 15px;
+}
+
+.message {
+    background-color: rgb(19, 19, 19);
+}
